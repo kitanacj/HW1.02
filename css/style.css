@@ -10,3 +10,32 @@ body{
 
 }
 
+
+table {
+    width: 80%;
+    color: black;
+    text-shadow:none;
+    background-color: rgb(240, 215, 241);
+    border: dotted;
+    border-collapse: collapse;
+    border-radius: 15px;
+}
+
+th {
+    height: 70px;
+    width: 70px;
+
+}
+
+td, th {
+    border: 3px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+
+.columns {
+    column-count: 2;
+    column-gap: normal;
+    column-width: 650px;
+   
+}
