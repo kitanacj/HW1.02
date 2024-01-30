@@ -34,8 +34,8 @@ td, th {
   }
 
 .columns {
-    column-count: 2;
-    column-gap: normal;
-    column-width: 650px;
+    float: right;
+    column-width: 100%;
+    text-align: center;
    
 }
