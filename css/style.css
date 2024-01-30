@@ -1,4 +1,15 @@
+
+@font-face {
+    font-family:kirbyfont;
+    src: url("../media/fonts/KirbysDreamland.ttf");
+}
+@font-face {
+    font-family: pixelfont;
+    src: url("../media/fonts/advanced_pixel_lcd-7.ttf")
+}
+
 body{
+    font-family: pixelfont;
     background-image: url(https://cdn.wallpapersafari.com/99/31/qiCQUB.gif);
     background-color: lavenderblush;
     text-shadow: 1.5px 1.5px  rgb(206, 66, 89);
@@ -12,6 +23,7 @@ body{
 
 
 table {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
     color: black;
     text-shadow:none;
@@ -41,6 +53,7 @@ td, th {
 }
 
 .columnse {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     color: black;
     text-shadow: none;
