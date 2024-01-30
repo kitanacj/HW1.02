@@ -39,3 +39,14 @@ td, th {
     text-align: center;
    
 }
+
+.columnse {
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    border-radius: 25px;
+    width: 50%;
+    text-align: center;
+    
+    float:left;
+}
